@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">webServiceDescriptor</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">brandFactory.v12.apis.soap.consumer:calc1</value>
+  <value name="node_pkg">brandFactory</value>
+  <value name="is_public">false</value>
+  <Boolean name="inbound">false</Boolean>
+  <Boolean name="WSICompliant">false</Boolean>
+  <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+  <value name="targetNamespace">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc</value>
+  <Boolean name="attachmentEnabled">false</Boolean>
+  <number name="mtomThreshold" type="Integer">0</number>
+  <array name="externalWSDLSources" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="contextURI">http://localhost:5555/</value>
+      <value name="locationURI">brandFactory.v12.apis.soap.consumer.calc1?wsdl=wsdl0</value>
+      <byte name="source">
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjx3c2RsOmRlZmluaXRpb25zIG5hbWU9ImNhbGMiIHRhcmdldE5hbWVzcGFjZT0iaHR0cDovL1NwYW5kYW5hL2JyYW5kRmFjdG9yeS52MTIuYXBpcy5zb2FwLmNvbnN1bWVycy5jYWxjX2RvY3M6Y2FsYyIgeG1sbnM6d3NkbD0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3NkbC8iIHhtbG5zOnNvYXBqbXM9Imh0dHA6Ly93d3cudzMub3JnLzIwMTAvc29hcGptcy8iIHhtbG5zOm1pbWU9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzZGwvbWltZS8iIHhtbG5zOnRucz0iaHR0cDovL1NwYW5kYW5hL2JyYW5kRmFjdG9yeS52MTIuYXBpcy5zb2FwLmNvbnN1bWVycy5jYWxjX2RvY3M6Y2FsYyIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgeG1sbnM6aHR0cD0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3NkbC9odHRwLyIgeG1sbnM6c29hcDEyPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93c2RsL3NvYXAxMi8iIHhtbG5zOnNvYXA9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzZGwvc29hcC8iIHhtbG5zOnNvYXBlbmM9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW5jb2RpbmcvIj4NCiAgPHdzZGw6dHlwZXM+DQogICAgPHhzZDpzY2hlbWEgdGFyZ2V0TmFtZXNwYWNlPSJodHRwOi8vU3BhbmRhbmEvYnJhbmRGYWN0b3J5LnYxMi5hcGlzLnNvYXAuY29uc3VtZXJzLmNhbGNfZG9jczpjYWxjIiB4bWxuczp0bnM9Imh0dHA6Ly9TcGFuZGFuYS9icmFuZEZhY3RvcnkudjEyLmFwaXMuc29hcC5jb25zdW1lcnMuY2FsY19kb2NzOmNhbGMiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiPg0KICAgICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJhZGRJbnRzIiB0eXBlPSJ0bnM6YWRkSW50cyIvPg0KICAgICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJhZGRJbnRzUmVzcG9uc2UiIHR5cGU9InRuczphZGRJbnRzUmVzcG9uc2UiLz4NCiAgICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iZGl2SW50cyIgdHlwZT0idG5zOmRpdkludHMiLz4NCiAgICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iZGl2SW50c1Jlc3BvbnNlIiB0eXBlPSJ0bnM6ZGl2SW50c1Jlc3BvbnNlIi8+DQogICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9Im11bEludHMiIHR5cGU9InRuczptdWxJbnRzIi8+DQogICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9Im11bEludHNSZXNwb25zZSIgdHlwZT0idG5zOm11bEludHNSZXNwb25zZSIvPg0KICAgICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJzdWJJbnRzIiB0eXBlPSJ0bnM6c3ViSW50cyIvPg0KICAgICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJzdWJJbnRzUmVzcG9uc2UiIHR5cGU9InRuczpzdWJJbnRzUmVzcG9uc2UiLz4NCiAgICAgICAgICA8eHNkOmNvbXBsZXhUeXBlIG5hbWU9ImFkZEludHMiPg0KICAgICAgICAgICAgPHhzZDpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9ImluMSIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzZDpzdHJpbmciLz4NCiAgICAgICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9ImluMiIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzZDpzdHJpbmciLz4NCiAgICAgICAgICAgIDwveHNkOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHNkOmNvbXBsZXhUeXBlPg0KICAgICAgICAgIDx4c2Q6Y29tcGxleFR5cGUgbmFtZT0iYWRkSW50c1Jlc3BvbnNlIj4NCiAgICAgICAgICAgIDx4c2Q6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJyZXN1bHQiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4c2Q6c3RyaW5nIi8+DQogICAgICAgICAgICA8L3hzZDpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzZDpjb21wbGV4VHlwZT4NCiAgICAgICAgICA8eHNkOmNvbXBsZXhUeXBlIG5hbWU9ImRpdkludHMiPg0KICAgICAgICAgICAgPHhzZDpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9ImluMSIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzZDpzdHJpbmciLz4NCiAgICAgICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9ImluMiIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzZDpzdHJpbmciLz4NCiAgICAgICAgICAgIDwveHNkOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHNkOmNvbXBsZXhUeXBlPg0KICAgICAgICAgIDx4c2Q6Y29tcGxleFR5cGUgbmFtZT0iZGl2SW50c1Jlc3BvbnNlIj4NCiAgICAgICAgICAgIDx4c2Q6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJyZXN1bHQiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4c2Q6c3RyaW5nIi8+DQogICAgICAgICAgICA8L3hzZDpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzZDpjb21wbGV4VHlwZT4NCiAgICAgICAgICA8eHNkOmNvbXBsZXhUeXBlIG5hbWU9Im11bEludHMiPg0KICAgICAgICAgICAgPHhzZDpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9ImluMSIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzZDpzdHJpbmciLz4NCiAgICAgICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9ImluMiIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzZDpzdHJpbmciLz4NCiAgICAgICAgICAgIDwveHNkOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHNkOmNvbXBsZXhUeXBlPg0KICAgICAgICAgIDx4c2Q6Y29tcGxleFR5cGUgbmFtZT0ibXVsSW50c1Jlc3BvbnNlIj4NCiAgICAgICAgICAgIDx4c2Q6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJyZXN1bHQiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4c2Q6c3RyaW5nIi8+DQogICAgICAgICAgICA8L3hzZDpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzZDpjb21wbGV4VHlwZT4NCiAgICAgICAgICA8eHNkOmNvbXBsZXhUeXBlIG5hbWU9InN1YkludHMiPg0KICAgICAgICAgICAgPHhzZDpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9ImluMSIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzZDpzdHJpbmciLz4NCiAgICAgICAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9ImluMiIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzZDpzdHJpbmciLz4NCiAgICAgICAgICAgIDwveHNkOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHNkOmNvbXBsZXhUeXBlPg0KICAgICAgICAgIDx4c2Q6Y29tcGxleFR5cGUgbmFtZT0ic3ViSW50c1Jlc3BvbnNlIj4NCiAgICAgICAgICAgIDx4c2Q6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJyZXN1bHQiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4c2Q6c3RyaW5nIi8+DQogICAgICAgICAgICA8L3hzZDpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzZDpjb21wbGV4VHlwZT4NCiAgICAgICAgCTwveHNkOnNjaGVtYT4NCiAgPC93c2RsOnR5cGVzPg0KICA8d3NkbDptZXNzYWdlIG5hbWU9ImNhbGNfUG9ydFR5cGVfZGl2SW50c1Jlc3BvbnNlIj4NCiAgICA8d3NkbDpwYXJ0IG5hbWU9InBhcmFtZXRlcnMiIGVsZW1lbnQ9InRuczpkaXZJbnRzUmVzcG9uc2UiPg0KICAgIDwvd3NkbDpwYXJ0Pg0KICA8L3dzZGw6bWVzc2FnZT4NCiAgPHdzZGw6bWVzc2FnZSBuYW1lPSJjYWxjX1BvcnRUeXBlX211bEludHNSZXNwb25zZSI+DQogICAgPHdzZGw6cGFydCBuYW1lPSJwYXJhbWV0ZXJzIiBlbGVtZW50PSJ0bnM6bXVsSW50c1Jlc3BvbnNlIj4NCiAgICA8L3dzZGw6cGFydD4NCiAgPC93c2RsOm1lc3NhZ2U+DQogIDx3c2RsOm1lc3NhZ2UgbmFtZT0iY2FsY19Qb3J0VHlwZV9zdWJJbnRzIj4NCiAgICA8d3NkbDpwYXJ0IG5hbWU9InBhcmFtZXRlcnMiIGVsZW1lbnQ9InRuczpzdWJJbnRzIj4NCiAgICA8L3dzZGw6cGFydD4NCiAgPC93c2RsOm1lc3NhZ2U+DQogIDx3c2RsOm1lc3NhZ2UgbmFtZT0iY2FsY19Qb3J0VHlwZV9kaXZJbnRzIj4NCiAgICA8d3NkbDpwYXJ0IG5hbWU9InBhcmFtZXRlcnMiIGVsZW1lbnQ9InRuczpkaXZJbnRzIj4NCiAgICA8L3dzZGw6cGFydD4NCiAgPC93c2RsOm1lc3NhZ2U+DQogIDx3c2RsOm1lc3NhZ2UgbmFtZT0iY2FsY19Qb3J0VHlwZV9tdWxJbnRzIj4NCiAgICA8d3NkbDpwYXJ0IG5hbWU9InBhcmFtZXRlcnMiIGVsZW1lbnQ9InRuczptdWxJbnRzIj4NCiAgICA8L3dzZGw6cGFydD4NCiAgPC93c2RsOm1lc3NhZ2U+DQogIDx3c2RsOm1lc3NhZ2UgbmFtZT0iY2FsY19Qb3J0VHlwZV9hZGRJbnRzUmVzcG9uc2UiPg0KICAgIDx3c2RsOnBhcnQgbmFtZT0icGFyYW1ldGVycyIgZWxlbWVudD0idG5zOmFkZEludHNSZXNwb25zZSI+DQogICAgPC93c2RsOnBhcnQ+DQogIDwvd3NkbDptZXNzYWdlPg0KICA8d3NkbDptZXNzYWdlIG5hbWU9ImNhbGNfUG9ydFR5cGVfYWRkSW50cyI+DQogICAgPHdzZGw6cGFydCBuYW1lPSJwYXJhbWV0ZXJzIiBlbGVtZW50PSJ0bnM6YWRkSW50cyI+DQogICAgPC93c2RsOnBhcnQ+DQogIDwvd3NkbDptZXNzYWdlPg0KICA8d3NkbDptZXNzYWdlIG5hbWU9ImNhbGNfUG9ydFR5cGVfc3ViSW50c1Jlc3BvbnNlIj4NCiAgICA8d3NkbDpwYXJ0IG5hbWU9InBhcmFtZXRlcnMiIGVsZW1lbnQ9InRuczpzdWJJbnRzUmVzcG9uc2UiPg0KICAgIDwvd3NkbDpwYXJ0Pg0KICA8L3dzZGw6bWVzc2FnZT4NCiAgPHdzZGw6cG9ydFR5cGUgbmFtZT0iY2FsY19Qb3J0VHlwZSI+DQogICAgPHdzZGw6b3BlcmF0aW9uIG5hbWU9ImFkZEludHMiPg0KICAgICAgPHdzZGw6aW5wdXQgbWVzc2FnZT0idG5zOmNhbGNfUG9ydFR5cGVfYWRkSW50cyI+DQogICAgPC93c2RsOmlucHV0Pg0KICAgICAgPHdzZGw6b3V0cHV0IG1lc3NhZ2U9InRuczpjYWxjX1BvcnRUeXBlX2FkZEludHNSZXNwb25zZSI+DQogICAgPC93c2RsOm91dHB1dD4NCiAgICA8L3dzZGw6b3BlcmF0aW9uPg0KICAgIDx3c2RsOm9wZXJhdGlvbiBuYW1lPSJtdWxJbnRzIj4NCiAgICAgIDx3c2RsOmlucHV0IG1lc3NhZ2U9InRuczpjYWxjX1BvcnRUeXBlX211bEludHMiPg0KICAgIDwvd3NkbDppbnB1dD4NCiAgICAgIDx3c2RsOm91dHB1dCBtZXNzYWdlPSJ0bnM6Y2FsY19Qb3J0VHlwZV9tdWxJbnRzUmVzcG9uc2UiPg0KICAgIDwvd3NkbDpvdXRwdXQ+DQogICAgPC93c2RsOm9wZXJhdGlvbj4NCiAgICA8d3NkbDpvcGVyYXRpb24gbmFtZT0iZGl2SW50cyI+DQogICAgICA8d3NkbDppbnB1dCBtZXNzYWdlPSJ0bnM6Y2FsY19Qb3J0VHlwZV9kaXZJbnRzIj4NCiAgICA8L3dzZGw6aW5wdXQ+DQogICAgICA8d3NkbDpvdXRwdXQgbWVzc2FnZT0idG5zOmNhbGNfUG9ydFR5cGVfZGl2SW50c1Jlc3BvbnNlIj4NCiAgICA8L3dzZGw6b3V0cHV0Pg0KICAgIDwvd3NkbDpvcGVyYXRpb24+DQogICAgPHdzZGw6b3BlcmF0aW9uIG5hbWU9InN1YkludHMiPg0KICAgICAgPHdzZGw6aW5wdXQgbWVzc2FnZT0idG5zOmNhbGNfUG9ydFR5cGVfc3ViSW50cyI+DQogICAgPC93c2RsOmlucHV0Pg0KICAgICAgPHdzZGw6b3V0cHV0IG1lc3NhZ2U9InRuczpjYWxjX1BvcnRUeXBlX3N1YkludHNSZXNwb25zZSI+DQogICAgPC93c2RsOm91dHB1dD4NCiAgICA8L3dzZGw6b3BlcmF0aW9uPg0KICA8L3dzZGw6cG9ydFR5cGU+DQogIDx3c2RsOmJpbmRpbmcgbmFtZT0iYnJhbmRGYWN0b3J5X3YxMl9hcGlzX3NvYXBfY29uc3VtZXJzX2NhbGNfZG9jc19jYWxjX0JpbmRlciIgdHlwZT0idG5zOmNhbGNfUG9ydFR5cGUiPg0KICAgIDxzb2FwOmJpbmRpbmcgc3R5bGU9ImRvY3VtZW50IiB0cmFuc3BvcnQ9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvaHR0cCIvPg0KICAgIDx3c2RsOm9wZXJhdGlvbiBuYW1lPSJhZGRJbnRzIj4NCiAgICAgIDxzb2FwOm9wZXJhdGlvbiBzb2FwQWN0aW9uPSJicmFuZEZhY3RvcnlfdjEyX2FwaXNfc29hcF9jb25zdW1lcnNfY2FsY19kb2NzX2NhbGNfQmluZGVyX2FkZEludHMiIHN0eWxlPSJkb2N1bWVudCIvPg0KICAgICAgPHdzZGw6aW5wdXQ+DQogICAgICAgIDxzb2FwOmJvZHkgcGFydHM9InBhcmFtZXRlcnMiIHVzZT0ibGl0ZXJhbCIvPg0KICAgICAgPC93c2RsOmlucHV0Pg0KICAgICAgPHdzZGw6b3V0cHV0Pg0KICAgICAgICA8c29hcDpib2R5IHBhcnRzPSJwYXJhbWV0ZXJzIiB1c2U9ImxpdGVyYWwiLz4NCiAgICAgIDwvd3NkbDpvdXRwdXQ+DQogICAgPC93c2RsOm9wZXJhdGlvbj4NCiAgICA8d3NkbDpvcGVyYXRpb24gbmFtZT0ibXVsSW50cyI+DQogICAgICA8c29hcDpvcGVyYXRpb24gc29hcEFjdGlvbj0iYnJhbmRGYWN0b3J5X3YxMl9hcGlzX3NvYXBfY29uc3VtZXJzX2NhbGNfZG9jc19jYWxjX0JpbmRlcl9tdWxJbnRzIiBzdHlsZT0iZG9jdW1lbnQiLz4NCiAgICAgIDx3c2RsOmlucHV0Pg0KICAgICAgICA8c29hcDpib2R5IHBhcnRzPSJwYXJhbWV0ZXJzIiB1c2U9ImxpdGVyYWwiLz4NCiAgICAgIDwvd3NkbDppbnB1dD4NCiAgICAgIDx3c2RsOm91dHB1dD4NCiAgICAgICAgPHNvYXA6Ym9keSBwYXJ0cz0icGFyYW1ldGVycyIgdXNlPSJsaXRlcmFsIi8+DQogICAgICA8L3dzZGw6b3V0cHV0Pg0KICAgIDwvd3NkbDpvcGVyYXRpb24+DQogICAgPHdzZGw6b3BlcmF0aW9uIG5hbWU9ImRpdkludHMiPg0KICAgICAgPHNvYXA6b3BlcmF0aW9uIHNvYXBBY3Rpb249ImJyYW5kRmFjdG9yeV92MTJfYXBpc19zb2FwX2NvbnN1bWVyc19jYWxjX2RvY3NfY2FsY19CaW5kZXJfZGl2SW50cyIgc3R5bGU9ImRvY3VtZW50Ii8+DQogICAgICA8d3NkbDppbnB1dD4NCiAgICAgICAgPHNvYXA6Ym9keSBwYXJ0cz0icGFyYW1ldGVycyIgdXNlPSJsaXRlcmFsIi8+DQogICAgICA8L3dzZGw6aW5wdXQ+DQogICAgICA8d3NkbDpvdXRwdXQ+DQogICAgICAgIDxzb2FwOmJvZHkgcGFydHM9InBhcmFtZXRlcnMiIHVzZT0ibGl0ZXJhbCIvPg0KICAgICAgPC93c2RsOm91dHB1dD4NCiAgICA8L3dzZGw6b3BlcmF0aW9uPg0KICAgIDx3c2RsOm9wZXJhdGlvbiBuYW1lPSJzdWJJbnRzIj4NCiAgICAgIDxzb2FwOm9wZXJhdGlvbiBzb2FwQWN0aW9uPSJicmFuZEZhY3RvcnlfdjEyX2FwaXNfc29hcF9jb25zdW1lcnNfY2FsY19kb2NzX2NhbGNfQmluZGVyX3N1YkludHMiIHN0eWxlPSJkb2N1bWVudCIvPg0KICAgICAgPHdzZGw6aW5wdXQ+DQogICAgICAgIDxzb2FwOmJvZHkgcGFydHM9InBhcmFtZXRlcnMiIHVzZT0ibGl0ZXJhbCIvPg0KICAgICAgPC93c2RsOmlucHV0Pg0KICAgICAgPHdzZGw6b3V0cHV0Pg0KICAgICAgICA8c29hcDpib2R5IHBhcnRzPSJwYXJhbWV0ZXJzIiB1c2U9ImxpdGVyYWwiLz4NCiAgICAgIDwvd3NkbDpvdXRwdXQ+DQogICAgPC93c2RsOm9wZXJhdGlvbj4NCiAgPC93c2RsOmJpbmRpbmc+DQogIDx3c2RsOnNlcnZpY2UgbmFtZT0iYnJhbmRGYWN0b3J5LnYxMi5hcGlzLnNvYXAuY29uc3VtZXJzLmNhbGNfZG9jcy5jYWxjIj4NCiAgICA8d3NkbDpwb3J0IG5hbWU9ImJyYW5kRmFjdG9yeV92MTJfYXBpc19zb2FwX2NvbnN1bWVyc19jYWxjX2RvY3NfY2FsY19Qb3J0IiBiaW5kaW5nPSJ0bnM6YnJhbmRGYWN0b3J5X3YxMl9hcGlzX3NvYXBfY29uc3VtZXJzX2NhbGNfZG9jc19jYWxjX0JpbmRlciI+DQogICAgICA8c29hcDphZGRyZXNzIGxvY2F0aW9uPSJodHRwOi8vU3BhbmRhbmE6NTU1NS93cy9icmFuZEZhY3RvcnkudjEyLmFwaXMuc29hcC5jb25zdW1lcnMuY2FsY19kb2NzOmNhbGMvYnJhbmRGYWN0b3J5X3YxMl9hcGlzX3NvYXBfY29uc3VtZXJzX2NhbGNfZG9jc19jYWxjX1BvcnQiLz4NCiAgICA8L3dzZGw6cG9ydD4NCiAgPC93c2RsOnNlcnZpY2U+DQo8L3dzZGw6ZGVmaW5pdGlvbnM+DQo=      </byte>
+      <number name="type" type="Integer">1</number>
+    </record>
+  </array>
+  <value name="externalWSDLURL">http://spandana:5555/ws/brandFactory.v12.apis.soap.consumers.calc_docs:calc?WSDL</value>
+  <value name="WSDLURL">http://Spandana:5555/ws/brandFactory.v12.apis.soap.provider:calc1?WSDL</value>
+  <value name="definitionName">calc1</value>
+  <value name="version">V_10_11</value>
+  <value name="schemaDomain">aa374c8166d24557b8ff3f7d8d3df3d7</value>
+  <Boolean name="rawArray">true</Boolean>
+  <array name="handlerList" type="record" depth="1">
+  </array>
+  <array name="binderList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="binderName">brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder</value>
+      <value name="portAddress">http://Spandana:5555/ws/brandFactory.v12.apis.soap.consumers.calc_docs:calc/brandFactory_v12_apis_soap_consumers_calc_docs_calc_Port</value>
+      <value name="bindingName">brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder</value>
+      <value name="bindingStyle">document</value>
+      <value name="bindingUse">literal</value>
+      <value name="bindingType">SOAP</value>
+      <value name="portName">brandFactory_v12_apis_soap_consumers_calc_docs_calc_Port</value>
+      <value name="portTypeName">calc_PortType</value>
+      <value name="bindingTransport">http://schemas.xmlsoap.org/soap/http</value>
+      <value name="transportType">http</value>
+      <record name="operationMap" javaclass="com.wm.util.Values">
+        <value name="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder_addInts">addInts</value>
+        <value name="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder_mulInts">mulInts</value>
+        <value name="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder_divInts">divInts</value>
+        <value name="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder_subInts">subInts</value>
+      </record>
+      <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+      <value name="SOAPDirective">ws</value>
+      <Boolean name="useCSQ">false</Boolean>
+    </record>
+  </array>
+  <array name="operationList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">addInts</value>
+      <value name="serviceName">brandFactory.v12.apis.soap.consumer.calc1_.connectors:calc_PortType_addInts</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc:calc_PortType_addInts_Input</value>
+          <value name="docType">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_addInts_Input</value>
+          <value name="nsOwner">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_addInts_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc:calc_PortType_addInts_Output</value>
+          <value name="docType">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_addInts_Output</value>
+          <value name="nsOwner">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_addInts_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">mulInts</value>
+      <value name="serviceName">brandFactory.v12.apis.soap.consumer.calc1_.connectors:calc_PortType_mulInts</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc:calc_PortType_mulInts_Input</value>
+          <value name="docType">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_mulInts_Input</value>
+          <value name="nsOwner">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_mulInts_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc:calc_PortType_mulInts_Output</value>
+          <value name="docType">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_mulInts_Output</value>
+          <value name="nsOwner">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_mulInts_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">divInts</value>
+      <value name="serviceName">brandFactory.v12.apis.soap.consumer.calc1_.connectors:calc_PortType_divInts</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc:calc_PortType_divInts_Input</value>
+          <value name="docType">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_divInts_Input</value>
+          <value name="nsOwner">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_divInts_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc:calc_PortType_divInts_Output</value>
+          <value name="docType">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_divInts_Output</value>
+          <value name="nsOwner">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_divInts_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">subInts</value>
+      <value name="serviceName">brandFactory.v12.apis.soap.consumer.calc1_.connectors:calc_PortType_subInts</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc:calc_PortType_subInts_Input</value>
+          <value name="docType">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_subInts_Input</value>
+          <value name="nsOwner">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_subInts_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc:calc_PortType_subInts_Output</value>
+          <value name="docType">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_subInts_Output</value>
+          <value name="nsOwner">brandFactory.v12.apis.soap.consumer.calc1_.docTypes:calc_PortType_subInts_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+  </array>
+  <record name="namespaces" javaclass="com.wm.util.Values">
+    <value name="wsdl">http://schemas.xmlsoap.org/wsdl/</value>
+    <value name="soapjms">http://www.w3.org/2010/soapjms/</value>
+    <value name="mime">http://schemas.xmlsoap.org/wsdl/mime/</value>
+    <value name="tns">http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc</value>
+    <value name="xsd">http://www.w3.org/2001/XMLSchema</value>
+    <value name="http">http://schemas.xmlsoap.org/wsdl/http/</value>
+    <value name="soap12">http://schemas.xmlsoap.org/wsdl/soap12/</value>
+    <value name="soap">http://schemas.xmlsoap.org/wsdl/soap/</value>
+    <value name="soapenc">http://schemas.xmlsoap.org/soap/encoding/</value>
+  </record>
+  <Boolean name="HeadersInPipelineEnabled">false</Boolean>
+  <Boolean name="validateSOAPResponse">true</Boolean>
+  <Boolean name="validateSchemaUsingXerces">true</Boolean>
+  <Boolean name="enableCompatibility">false</Boolean>
+  <Boolean name="omitXSDAny">true</Boolean>
+  <record name="userDefinedURIReferencePrefixes" javaclass="com.wm.util.Values">
+  </record>
+  <Boolean name="registerDoctypes">true</Boolean>
+  <Boolean name="allTypes">false</Boolean>
+  <Boolean name="generateXOPObjectForBase64Binary">false</Boolean>
+  <value name="originURI">http://spandana:5555/ws/brandFactory.v12.apis.soap.consumers.calc_docs:calc?WSDL</value>
+  <value name="modifiable">false</value>
+  <value name="externalServiceName">{http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc}brandFactory.v12.apis.soap.consumers.calc_docs.calc</value>
+  <null name="policyAttachmentList"/>
+  <Boolean name="filterLoginCredentials">false</Boolean>
+</Values>

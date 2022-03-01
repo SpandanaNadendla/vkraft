@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="new_wsd" targetNamespace="http://DESKTOP-M8R5HDQ/KrishnaPackage.v1.apis.SOAP:new_wsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soapjms="http://www.w3.org/2010/soapjms/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://DESKTOP-M8R5HDQ/KrishnaPackage.v1.apis.SOAP:new_wsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://DESKTOP-M8R5HDQ/KrishnaPackage.v1.apis.SOAP:new_wsd" xmlns:tns="http://DESKTOP-M8R5HDQ/KrishnaPackage.v1.apis.SOAP:new_wsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <xsd:element name="calsiIf" type="tns:calsiIf"/>
+          <xsd:element name="calsiIfResponse" type="tns:calsiIfResponse"/>
+          <xsd:complexType name="calsiIf">
+            <xsd:sequence>
+              <xsd:element name="var1" nillable="true" type="xsd:string"/>
+              <xsd:element name="var2" nillable="true" type="xsd:string"/>
+              <xsd:element name="Operations" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="calsiIfResponse">
+            <xsd:sequence>
+              <xsd:element name="value" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        	</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="new_wsd_PortType_calsiIf">
+    <wsdl:part name="parameters" element="tns:calsiIf">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="new_wsd_PortType_calsiIfResponse">
+    <wsdl:part name="parameters" element="tns:calsiIfResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="new_wsd_PortType">
+    <wsdl:operation name="calsiIf">
+      <wsdl:input message="tns:new_wsd_PortType_calsiIf">
+    </wsdl:input>
+      <wsdl:output message="tns:new_wsd_PortType_calsiIfResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="KrishnaPackage_v1_apis_SOAP_new_wsd_Binder" type="tns:new_wsd_PortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="calsiIf">
+      <soap:operation soapAction="KrishnaPackage_v1_apis_SOAP_new_wsd_Binder_calsiIf" style="document"/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="KrishnaPackage.v1.apis.SOAP.provider.new_wsd">
+    <wsdl:port name="KrishnaPackage_v1_apis_SOAP_new_wsd_Port" binding="tns:KrishnaPackage_v1_apis_SOAP_new_wsd_Binder">
+      <soap:address location="http://DESKTOP-M8R5HDQ:5555/ws/KrishnaPackage.v1.apis.SOAP.provider:new_wsd/KrishnaPackage_v1_apis_SOAP_new_wsd_Port"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

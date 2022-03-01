@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="calc" targetNamespace="http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soapjms="http://www.w3.org/2010/soapjms/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc" xmlns:tns="http://Spandana/brandFactory.v12.apis.soap.consumers.calc_docs:calc" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <xsd:element name="addInts" type="tns:addInts"/>
+          <xsd:element name="addIntsResponse" type="tns:addIntsResponse"/>
+          <xsd:element name="divInts" type="tns:divInts"/>
+          <xsd:element name="divIntsResponse" type="tns:divIntsResponse"/>
+          <xsd:element name="mulInts" type="tns:mulInts"/>
+          <xsd:element name="mulIntsResponse" type="tns:mulIntsResponse"/>
+          <xsd:element name="subInts" type="tns:subInts"/>
+          <xsd:element name="subIntsResponse" type="tns:subIntsResponse"/>
+          <xsd:complexType name="addInts">
+            <xsd:sequence>
+              <xsd:element name="in1" nillable="true" type="xsd:string"/>
+              <xsd:element name="in2" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="addIntsResponse">
+            <xsd:sequence>
+              <xsd:element name="result" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="divInts">
+            <xsd:sequence>
+              <xsd:element name="in1" nillable="true" type="xsd:string"/>
+              <xsd:element name="in2" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="divIntsResponse">
+            <xsd:sequence>
+              <xsd:element name="result" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="mulInts">
+            <xsd:sequence>
+              <xsd:element name="in1" nillable="true" type="xsd:string"/>
+              <xsd:element name="in2" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="mulIntsResponse">
+            <xsd:sequence>
+              <xsd:element name="result" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="subInts">
+            <xsd:sequence>
+              <xsd:element name="in1" nillable="true" type="xsd:string"/>
+              <xsd:element name="in2" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+          <xsd:complexType name="subIntsResponse">
+            <xsd:sequence>
+              <xsd:element name="result" nillable="true" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        	</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="calc_PortType_divIntsResponse">
+    <wsdl:part name="parameters" element="tns:divIntsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="calc_PortType_mulIntsResponse">
+    <wsdl:part name="parameters" element="tns:mulIntsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="calc_PortType_subInts">
+    <wsdl:part name="parameters" element="tns:subInts">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="calc_PortType_divInts">
+    <wsdl:part name="parameters" element="tns:divInts">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="calc_PortType_mulInts">
+    <wsdl:part name="parameters" element="tns:mulInts">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="calc_PortType_addIntsResponse">
+    <wsdl:part name="parameters" element="tns:addIntsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="calc_PortType_addInts">
+    <wsdl:part name="parameters" element="tns:addInts">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="calc_PortType_subIntsResponse">
+    <wsdl:part name="parameters" element="tns:subIntsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="calc_PortType">
+    <wsdl:operation name="addInts">
+      <wsdl:input message="tns:calc_PortType_addInts">
+    </wsdl:input>
+      <wsdl:output message="tns:calc_PortType_addIntsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mulInts">
+      <wsdl:input message="tns:calc_PortType_mulInts">
+    </wsdl:input>
+      <wsdl:output message="tns:calc_PortType_mulIntsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="divInts">
+      <wsdl:input message="tns:calc_PortType_divInts">
+    </wsdl:input>
+      <wsdl:output message="tns:calc_PortType_divIntsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subInts">
+      <wsdl:input message="tns:calc_PortType_subInts">
+    </wsdl:input>
+      <wsdl:output message="tns:calc_PortType_subIntsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder" type="tns:calc_PortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="addInts">
+      <soap:operation soapAction="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder_addInts" style="document"/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mulInts">
+      <soap:operation soapAction="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder_mulInts" style="document"/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="divInts">
+      <soap:operation soapAction="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder_divInts" style="document"/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subInts">
+      <soap:operation soapAction="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder_subInts" style="document"/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="brandFactory.v12.apis.soap.consumers.calc_docs.calc">
+    <wsdl:port name="brandFactory_v12_apis_soap_consumers_calc_docs_calc_Port" binding="tns:brandFactory_v12_apis_soap_consumers_calc_docs_calc_Binder">
+      <soap:address location="http://Spandana:5555/ws/brandFactory.v12.apis.soap.consumers.calc_docs:calc/brandFactory_v12_apis_soap_consumers_calc_docs_calc_Port"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
